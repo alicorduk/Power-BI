@@ -1,0 +1,61 @@
+# Power BI Report: Global Super Store Dataset
+
+## Project Overview
+
+This project involves creating a comprehensive report using the Global Super Store dataset. The goal is to demonstrate data transformation, relationship building between tables, and visualization techniques using Power BI. The report comprises various visuals that provide insights into sales and profit performance, returned sales, regional sales leadership, and other key metrics.
+
+## Data Transformation
+
+- Ensured that all column headers in each query were correctly utilized as column headers.
+
+## Relationships
+
+- Established relationships between the Orders, People, and Returns tables. The key fields used to create these relationships were chosen based on the dataset's structure and integrity.
+
+## Report Visuals
+
+1. **Category Sales and Profit Performance (Bar Chart)**
+   - A bar chart visual was created to show the sales and profit performance for each category. Drilling down into a category reveals the sales and profit performance for subcategories within that category for the years 2011 and 2012.
+
+2. **Returned Sales by Market (Pie Chart)**
+   - A pie chart visual displays the returned sales in each market. Clicking on a category within the pie chart filters the bar chart to show the returned sales and profit for each category.
+
+3. **Regional Sales Leadership (Table)**
+   - A table visual presents data with four columns:
+     1. Region
+     2. VP of Sales in that region (Person field from the People query)
+     3. Sales amount by each person
+     4. Percentage of the grand total sum of sales
+   - This table is limited to displaying the top six VPs regarding sales.
+
+4. **Total Profit by Country (Treemap)**
+   - A treemap visual shows the total profit in each country. The treemap also serves as a filter for all other visuals, including the table.
+
+5. **Key Metrics Display (Various Metrics)**
+   - The top section of the dashboard includes key metrics such as the sum of sales, sum of profit, and count of return orders. This provides a quick overview of the dataset's performance.
+
+6. **Average Delivery Days by Category (Line Chart)**
+   - A line chart visual displays the average delivery days by category, providing insights into the delivery performance for different product categories.
+
+## Slicer
+
+- A slicer using the market field was created in tile format to serve as a filter for all visuals in the report.
+- Additional slicers for order date and market are included to enable dynamic filtering of the data.
+
+
+
+## How to View the Report
+
+To view the report, you need to have Power BI Desktop installed on your computer. You can download it from the [official Power BI website](https://powerbi.microsoft.com/desktop/).
+
+1. Download the `.pbix` file from this repository.
+2. Open Power BI Desktop.
+3. Click on `File` > `Open` and select the downloaded `.pbix` file.
+
+Feel free to explore the report and interact with the visuals to gain insights from the Global Super Store dataset.
+
+---
+
+### Contact
+
+If you have any questions or feedback, please feel free to reach out.
